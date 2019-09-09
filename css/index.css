@@ -375,23 +375,35 @@ ul {
         display: flex;
         flex-direction: column-reverse;
         align-content: center;
+        justify-content: space-evenly;
         margin-left: 50%;
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
         margin-top: 20px;
+    }
+    .container .links a{
+        width: 210%;
+        font-size: 1rem;
+        align-content: center;
+        text-align: center;
     }
     .container .links .logo {
         display: flex;
         width: 100%;
+        margin-right: 90%;
+        color: lightgray
     }
     .container .links nav a{
         font-size: 25px;
         margin-left: 60%;
-        border-bottom: 1px solid grey;
+        border-bottom: 1px solid lightgray;
+        border-top: 1px solid lightgray;
+        padding: 5px;
     }
     .cta .cta-text h1{
         display: flex;
         align-content: center;
         margin-left: 0;
+        margin-top: -20%;
     }
     .cta .cta-text button{
         margin-left: 22%;
@@ -399,10 +411,11 @@ ul {
     .cta img{
         display: none;
     }
+    
     .main-content .top-content {
         display: flex; 
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
     .main-content .top-content .text-content{
         display: flex;
@@ -413,7 +426,7 @@ ul {
     .main-content .middle-img {
         display: flex;
         align-self: center;
-        width: 100%;
+        width: 105%;
         margin-bottom: 0px;
     }
     .main-content .bottom-content {
